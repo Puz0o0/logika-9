@@ -1,0 +1,33 @@
+﻿Построение начато 22.11.2024 14:49:37.
+     1>Проект "X:\23VVV1\9999\9999\9999.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\9999.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\9999.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt 9999.cpp
+         9999.cpp
+     1>x:\23vvv1\9999\9999\9999.cpp(1): warning C4603: _CTR_SECURE_NO_WARNINGS: макрос не определен или определение изменилось после использования предкомпилированного заголовка
+                 Добавление макроопределения в предкомпилированный заголовок вместо определения его здесь
+                 x:\23vvv1\9999\9999\9999.cpp(2): использование предкомпилированного заголовка
+       ManifestResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"X:\23VVV1\9999\Debug\9999.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\9999.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"X:\23VVV1\9999\Debug\9999.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"X:\23VVV1\9999\Debug\9999.lib" /MACHINE:X86 Debug\9999.exe.embed.manifest.res
+         Debug\9999.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\9999.exe.embed.manifest" /manifest Debug\9999.exe.intermediate.manifest
+         Для всех выходных данных обновления не требуется.
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"X:\23VVV1\9999\Debug\9999.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\9999.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"X:\23VVV1\9999\Debug\9999.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"X:\23VVV1\9999\Debug\9999.lib" /MACHINE:X86 Debug\9999.exe.embed.manifest.res
+         Debug\9999.obj
+         Debug\stdafx.obj
+         9999.vcxproj -> X:\23VVV1\9999\Debug\9999.exe
+       FinalizeBuildStatus:
+         Файл "Debug\9999.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\9999.lastbuildstate".
+     1>Построение проекта "X:\23VVV1\9999\9999\9999.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:02.29
